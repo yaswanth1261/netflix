@@ -171,12 +171,12 @@ font-size: 20px;
   }
   .movies2{
     display: flex;
-    gap: 7px;
+    gap: 8px;
     justify-content: space-around;
     flex-wrap: wrap;
   }
-  .cinema:hover{
-    transform: scale(1.2);
+  .cinema :hover{
+    transform: scale(0.9);
     background-color: red;
   }
 
