@@ -14,7 +14,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path='/reactproject' element={<Login/>}/>
+        <Route path='/netflix' element={<Login/>}/>
         <Route path='/signup' element={<Signup/>}/>
         <Route path='/dashboard' element={<Dashboard/>}/>
         <Route path='/movies' element={<Movies/>}/>
