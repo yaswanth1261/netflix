@@ -2,6 +2,7 @@ import React from 'react'
 import Myimg from './Assets/moneyheist2.jpg'
 import { Mdata } from './Data/Moviesdata'
 import { Link } from 'react-router-dom'
+import { Row,Col } from 'react-bootstrap'
 
 
 
@@ -41,7 +42,7 @@ function Content() {
                   return(
                       <div>
                           {/* <p>{e.Id}</p> */}
-                          <img src={e.Image} alt="" style={{width:'300px', height:'350px'}}/>
+                          <img src={e.Image} alt="" style={{width:'250px', height:'300px'}}/>
                           <p>{e.Name}</p>
                       
                       </div>

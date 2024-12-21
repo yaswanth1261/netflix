@@ -12,8 +12,8 @@
 
   background-color: rgba(0, 0, 0, 0.8); 
   color: white;
-  width: 450px;
-  height: 650px;
+  width: 400px;
+  height: 550px;
   border-radius: 20px;
   border-color: black;
   text-align: center;
@@ -89,10 +89,12 @@ font-size: 20px;
   font-size: larger;
 }
 .bubble{
+  display: flex;
+  flex-wrap: wrap;
   background-color: red;
   position: absolute;
-  bottom: 850px;
-  left: 1100px;
+  bottom: 700px;
+  left: 1200px;
   color: white;
   padding: 5px;
   width: 70px;
