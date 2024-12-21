@@ -7,11 +7,11 @@ function Sidenav() {
   
             <div className=' container-fluid logo'>
                 {/* <h1 className='netflix my-3'>NETFLIX</h1> */}
-                <img src={Nimg} alt=""  style={{ width:'100%',marginTop:'20px'}} />
+                <img src={Nimg} alt=""  style={{ width:'100%',marginTop:'4%'}} />
                 
                
                 <div className='logo1'>
-                <div className='logo11' style={{color:'white',width:'180px'}}>
+                <div className='logo11' style={{color:'white',width:'100%',marginTop:'20%'}}>
                     <h4>Menu</h4><br />
                     <button className='sbutton'>
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">

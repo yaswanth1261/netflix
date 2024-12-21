@@ -102,8 +102,8 @@ font-size: 20px;
 
   
   .logo1{
-      margin: 20px;
-      margin-top: 50px;
+      margin:4%;
+      margin-top:5%;
       
   }
   .sbutton{
@@ -137,11 +137,19 @@ font-size: 20px;
     font-weight:900;
     font-size: xx-large;
   }
+  .static{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
   .matter{
     background-color: rgba(0, 0, 0, 0.623);
     color: white;
-    margin-top: 90px;
+    margin-top: 15%;
     width: 100%;
+  }
+  .moneyheist{
+    width:100%;
   }
   .part{
     display: flex;
@@ -167,17 +175,16 @@ font-size: 20px;
   }
   .movies1{
     display: flex; 
-    justify-content: space-between;   
+    justify-content: space-between; 
+    flex-wrap: wrap;  
   }
   .movies2{
     display: flex;
-    gap: 8px;
     justify-content: space-around;
     flex-wrap: wrap;
   }
   .cinema :hover{
     transform: scale(0.9);
-    background-color: red;
   }
 
  

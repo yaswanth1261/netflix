@@ -10,7 +10,9 @@ function Content() {
   const Mdata1 = Mdata.slice(0,4)
   return (
     <div className='containerfluid'>
-      <div className=' d-flex f-wrap '>
+       <Row>
+      <div className=' static'>
+        <Col sm={4}>
            <div className='matter '>
       
             <h4> <span className='n'>N    </span>series</h4>
@@ -22,11 +24,15 @@ function Content() {
             <button className='tbutton'>watch later </button>
 
 
-            </div>     
-      <div className='moneyheist d-flex f-wrap '>
+            </div>   
+         </Col>
+         <Col sm={8}>
+      <div className='moneyheist '>
         <img src={Myimg} alt="" />
        </div>
+       </Col>
        </div>
+       </Row>
        <h1 className='rweda'style={{fontsize:'15px',fontWeight:'900',color:'white'}}>Popular Movies</h1>
       <div className=' movies1'>
       
