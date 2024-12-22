@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/netflix/static/css/main.ad87c7a0.css",
-    "main.js": "/netflix/static/js/main.265e75e7.js",
+    "main.css": "/netflix/static/css/main.386c3147.css",
+    "main.js": "/netflix/static/js/main.440bd2e5.js",
     "static/media/netflix-octobre-contenus-2022.jpg": "/netflix/static/media/netflix-octobre-contenus-2022.8162ede483aa6d5f4d75.jpg",
     "static/media/moneyheist2.jpg": "/netflix/static/media/moneyheist2.8a4782475591a8a97385.jpg",
     "static/media/netflix-background-gs7hjuwvv2g0e9fj.jpg": "/netflix/static/media/netflix-background-gs7hjuwvv2g0e9fj.6a6327437eb72b884185.jpg",
@@ -17,11 +17,11 @@
     "static/media/devara.webp": "/netflix/static/media/devara.dfee3651c92431fd39d2.webp",
     "static/media/121.png": "/netflix/static/media/121.db24b2221c25cec38244.png",
     "index.html": "/netflix/index.html",
-    "main.ad87c7a0.css.map": "/netflix/static/css/main.ad87c7a0.css.map",
-    "main.265e75e7.js.map": "/netflix/static/js/main.265e75e7.js.map"
+    "main.386c3147.css.map": "/netflix/static/css/main.386c3147.css.map",
+    "main.440bd2e5.js.map": "/netflix/static/js/main.440bd2e5.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad87c7a0.css",
-    "static/js/main.265e75e7.js"
+    "static/css/main.386c3147.css",
+    "static/js/main.440bd2e5.js"
   ]
 }
