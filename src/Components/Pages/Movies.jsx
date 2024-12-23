@@ -12,14 +12,14 @@ function Movies() {
         <Sidenav/>
         </Col>
         <Col md={10}> 
-    < div className='container-fluid movies2'>
+    < div className='movies2'>
       {
         Mdata.map((e)=>{
             return(
                 <div >
                     <p>{e.Id}</p>
                     <Link className='cinema' to={`/movies/${e.Id}`}>
-                    <img src={e.Image} alt="" style={{width:'250px',borderRadius:'10px'}}/></Link>
+                    <img src={e.Image} alt="" style={{width:'250px',height:'300px',}}/></Link>
                     <p>{e.Name}</p>
                   
                 </div>

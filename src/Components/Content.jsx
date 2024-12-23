@@ -3,12 +3,14 @@ import Myimg from './Assets/moneyheist2.jpg'
 import { Mdata } from './Data/Moviesdata'
 import { Link } from 'react-router-dom'
 import { Row,Col } from 'react-bootstrap'
+import { Wdata } from './Data/Webseriesdata'
 
 
 
 
 function Content() {
   const Mdata1 = Mdata.slice(0,4)
+  const Wdata1 = Wdata.slice(0,4)
   return (
     <div className='containerfluid'>
        <Row>
@@ -52,6 +54,21 @@ function Content() {
           
           </div>
           <Link to='/movies'><button>viewall</button></Link>
+        <div className='web1'>
+          {
+             Wdata1.map((x)=>{
+                                return(
+                                    <div>
+                                        <p>{x.Id}</p>
+                                        <img src={x.Image} alt="" />
+                                        <p>{x.Season}</p>  
+                                        <p>{x.Rating}</p>
+                                    </div> 
+                                )   
+          })
+        }
+            
+          </div>  
     </div>
 
   )

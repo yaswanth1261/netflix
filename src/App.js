@@ -9,6 +9,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Movies from './Components/Pages/Movies';
 import Moviedetails from './Components/Details/Moviedetails';
 import Playlist from './Components/Pages/Playlist';
+import Webseries from './Components/Pages/Webseries';
 
 function App() {
   return (
@@ -19,7 +20,9 @@ function App() {
         <Route path='/dashboard' element={<Dashboard/>}/>
         <Route path='/movies' element={<Movies/>}/>
         <Route path='/movies/:Id' element={<Moviedetails/>}/>
-        <Route path='/playlist' element={<Playlist/>}/>
+        <Route path='/webseries' element={<Webseries/>}/>
+    
+
     
         
 
