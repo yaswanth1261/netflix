@@ -1,27 +1,41 @@
 {
   "files": {
-    "main.css": "/netflix/static/css/main.386c3147.css",
-    "main.js": "/netflix/static/js/main.440bd2e5.js",
+    "main.css": "/netflix/static/css/main.3787a15f.css",
+    "main.js": "/netflix/static/js/main.350544cf.js",
     "static/media/netflix-octobre-contenus-2022.jpg": "/netflix/static/media/netflix-octobre-contenus-2022.8162ede483aa6d5f4d75.jpg",
     "static/media/moneyheist2.jpg": "/netflix/static/media/moneyheist2.8a4782475591a8a97385.jpg",
     "static/media/netflix-background-gs7hjuwvv2g0e9fj.jpg": "/netflix/static/media/netflix-background-gs7hjuwvv2g0e9fj.6a6327437eb72b884185.jpg",
+    "static/media/web3.webp": "/netflix/static/media/web3.d387de6a6453c1ff633c.webp",
     "static/media/lucky.webp": "/netflix/static/media/lucky.e4bf934e172dcaa73ccd.webp",
+    "static/media/web2.webp": "/netflix/static/media/web2.de564e7faef33847f812.webp",
     "static/media/inception.webp": "/netflix/static/media/inception.338ed4c37f030333e0cc.webp",
+    "static/media/web4.webp": "/netflix/static/media/web4.5576768f1ce5bef43a60.webp",
     "static/media/skm.webp": "/netflix/static/media/skm.0bd414b18d9abf1d79c2.webp",
+    "static/media/kndc.webp": "/netflix/static/media/kndc.8d24c8f18bbd922481c5.webp",
+    "static/media/web1.webp": "/netflix/static/media/web1.409b4e7f6186cc2d60eb.webp",
+    "static/media/web5.webp": "/netflix/static/media/web5.af3a2687cd7f225209ae.webp",
+    "static/media/web10.webp": "/netflix/static/media/web10.21848c64c803776d7c45.webp",
     "static/media/fighter.webp": "/netflix/static/media/fighter.26704cebb6e960ab2391.webp",
+    "static/media/web8.webp": "/netflix/static/media/web8.e0e67847c52176af3771.webp",
     "static/media/jersey.webp": "/netflix/static/media/jersey.bf81bdcb281e2d3a28b4.webp",
+    "static/media/web6.webp": "/netflix/static/media/web6.b7711b6b262357c0273d.webp",
+    "static/media/ff8.webp": "/netflix/static/media/ff8.3b926b467d58d88809c4.webp",
+    "static/media/web12.webp": "/netflix/static/media/web12.10b7c1ee6159f5c7e7b5.webp",
     "static/media/amaran.webp": "/netflix/static/media/amaran.59c7761965bb86693358.webp",
     "static/media/rrr.webp": "/netflix/static/media/rrr.b08a971b31726689763a.webp",
+    "static/media/web9.webp": "/netflix/static/media/web9.bb75c2ff2eaba8638315.webp",
     "static/media/kalki.webp": "/netflix/static/media/kalki.cfc1fadcd7f07a2e42cd.webp",
     "static/media/animal.webp": "/netflix/static/media/animal.69d446276770ac3ae1ac.webp",
+    "static/media/web11.webp": "/netflix/static/media/web11.eba0ee7bbac4d183301c.webp",
     "static/media/devara.webp": "/netflix/static/media/devara.dfee3651c92431fd39d2.webp",
+    "static/media/web7.webp": "/netflix/static/media/web7.71412da0f07f18358939.webp",
     "static/media/121.png": "/netflix/static/media/121.db24b2221c25cec38244.png",
     "index.html": "/netflix/index.html",
-    "main.386c3147.css.map": "/netflix/static/css/main.386c3147.css.map",
-    "main.440bd2e5.js.map": "/netflix/static/js/main.440bd2e5.js.map"
+    "main.3787a15f.css.map": "/netflix/static/css/main.3787a15f.css.map",
+    "main.350544cf.js.map": "/netflix/static/js/main.350544cf.js.map"
   },
   "entrypoints": [
-    "static/css/main.386c3147.css",
-    "static/js/main.440bd2e5.js"
+    "static/css/main.3787a15f.css",
+    "static/js/main.350544cf.js"
   ]
 }
