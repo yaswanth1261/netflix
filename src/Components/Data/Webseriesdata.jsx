@@ -5,61 +5,90 @@ import Imgd from '../Assets/web4.webp'
 import Imge from '../Assets/web5.webp'
 import Imgf from '../Assets/web6.webp'
 import Imgg from '../Assets/web7.webp'
-import Imgah from '../Assets/web8.webp'
+import Imgh from '../Assets/web8.webp'
+import Imgi from '../Assets/web9.webp'
+import Imgj from '../Assets/web10.webp'
+import Imgk from '../Assets/web11.webp'
+import Imgl from '../Assets//web12.webp'
 
 export const Wdata=[
     {
-        ID : 1,
+        Id : 1,
         Image : Imga,
         Season : 1,
         Rating : 5,
 
     },
     {
-        ID : 2,
+        Id : 2,
         Image : Imgb,
         Season : 1,
         Rating : 5,
 
     },
     {
-        ID : 3,
+        Id : 3,
         Image : Imgc,
         Season : 1,
         Rating : 5,
 
     },
     {
-        ID : 4,
+        Id : 4,
         Image : Imgd,
         Season : 1,
         Rating : 5,
 
     },
     {
-        ID : 5,
+        Id : 5,
         Image : Imge,
         Season : 1,
         Rating : 5,
 
     },
     {
-        ID : 6,
+        Id : 6,
         Image : Imgf,
         Season : 1,
         Rating : 5,
 
     },
     {
-        ID : 7,
+        Id : 7,
         Image : Imgg,
         Season : 1,
         Rating : 5,
 
     },
     {
-        ID : 8,
-        Image : Imgah,
+        Id : 8,
+        Image : Imgh,
+        Season : 1,
+        Rating : 5,
+
+    },
+    {
+        Id : 9,
+        Image : Imgi,
+        Season : 1,
+        Rating : 5,
+
+    }, {
+        Id : 10,
+        Image : Imgj,
+        Season : 1,
+        Rating : 5,
+
+    }, {
+        Id : 11,
+        Image : Imgk,
+        Season : 1,
+        Rating : 5,
+
+    }, {
+        Id : 12,
+        Image : Imgl,
         Season : 1,
         Rating : 5,
 

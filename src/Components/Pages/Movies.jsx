@@ -19,7 +19,7 @@ function Movies() {
                 <div >
                     <p>{e.Id}</p>
                     <Link className='cinema' to={`/movies/${e.Id}`}>
-                    <img src={e.Image} alt="" style={{width:'250px',height:'300px',}}/></Link>
+                    <img src={e.Image} alt="" style={{width:'250px',height:'300px',borderRadius:'7px'}}/></Link>
                     <p>{e.Name}</p>
                   
                 </div>

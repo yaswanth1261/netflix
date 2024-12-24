@@ -54,21 +54,19 @@ function Content() {
           
           </div>
           <Link to='/movies'><button>viewall</button></Link>
+          <h1 className='rweda'style={{fontsize:'15px',fontWeight:'900',color:'white'}}>Popular Webseries</h1>
         <div className='web1'>
           {
              Wdata1.map((x)=>{
-                                return(
-                                    <div>
-                                        <p>{x.Id}</p>
-                                        <img src={x.Image} alt="" />
-                                        <p>{x.Season}</p>  
-                                        <p>{x.Rating}</p>
-                                    </div> 
-                                )   
-          })
-        }
-            
-          </div>  
+                   return(
+                      <div>
+                          <img src={x.Image} alt="" style={{width:'250px',height:'300px',borderRadius:'7px'}}/> 
+                      </div> 
+                  )   
+              })
+            }
+            </div>  
+            <Link to='/webseries'><button>viewall</button></Link>
     </div>
 
   )

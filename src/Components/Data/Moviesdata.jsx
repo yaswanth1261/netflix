@@ -8,6 +8,8 @@ import Img7 from '../Assets/skm.webp'
 import Img8 from '../Assets/lucky.webp'
 import Img9 from '../Assets/jersey.webp'
 import Img10 from '../Assets/rrr.webp'
+import Img11 from '../Assets/ff8.webp'
+import Img12 from '../Assets/kndc.webp'
 
 
 export const Mdata=[
@@ -78,6 +80,20 @@ export const Mdata=[
   {
   Id : 10,
   Image : Img10,
+    Name : "jurrasicpark",
+    duration : "3hrs",
+     Rating : '8/10',
+},
+{
+  Id : 11,
+  Image : Img11,
+    Name : "jurrasicpark",
+    duration : "3hrs",
+     Rating : '8/10',
+},
+{
+  Id : 12,
+  Image : Img12,
     Name : "jurrasicpark",
     duration : "3hrs",
      Rating : '8/10',

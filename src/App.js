@@ -8,9 +8,8 @@ import './index.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Movies from './Components/Pages/Movies';
 import Moviedetails from './Components/Details/Moviedetails';
-import Playlist from './Components/Pages/Playlist';
 import Webseries from './Components/Pages/Webseries';
-
+import Webdetails from './Components/Details/Webdetails';
 function App() {
   return (
     <Router>
@@ -21,6 +20,7 @@ function App() {
         <Route path='/movies' element={<Movies/>}/>
         <Route path='/movies/:Id' element={<Moviedetails/>}/>
         <Route path='/webseries' element={<Webseries/>}/>
+        <Route path='/webseries/:Id' element={<Webdetails/>}/>
     
 
     

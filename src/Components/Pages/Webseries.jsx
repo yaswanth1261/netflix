@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 
 function Webseries(){
     return(
-    <div classname="container-fluid">
+    <div className="container-fluid webseries" style={{backgroundColor:'black',}}>
         <Row>
             <Col md={2}>
             <Sidenav/>
@@ -19,7 +19,8 @@ function Webseries(){
                     return(
                         <div>
                             <p>{x.Id}</p>
-                            <img src={x.Image} alt="" />
+                            <Link className='cinema' to={`/webseries/${x.Id}`}>
+                            <img src={x.Image} alt="" style={{width:'250px',height:'300px',borderRadius:'7px'}}/></Link>
                             <p>{x.Season}</p>  
                             <p>{x.Rating}</p>
                         </div>    
